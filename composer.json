@@ -109,13 +109,13 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpOffice\\PhpSpreadsheet\\": "src/PhpSpreadsheet"
+            "Analize\\PhpSpreadsheet\\": "src/PhpSpreadsheet"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PhpOffice\\PhpSpreadsheetTests\\": "tests/PhpSpreadsheetTests",
-            "PhpOffice\\PhpSpreadsheetInfra\\": "infra"
+            "Analize\\PhpSpreadsheetTests\\": "tests/PhpSpreadsheetTests",
+            "Analize\\PhpSpreadsheetInfra\\": "infra"
         }
     }
 }
