@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Cell;
+namespace Analize\PhpSpreadsheet\Cell;
 
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use Stringable;
 
 class RowRange implements AddressRange, Stringable

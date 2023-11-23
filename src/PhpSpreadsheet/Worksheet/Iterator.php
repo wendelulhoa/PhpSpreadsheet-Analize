@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet;
+namespace Analize\PhpSpreadsheet\Worksheet;
 
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Spreadsheet;
 
 /**
  * @implements \Iterator<int, Worksheet>

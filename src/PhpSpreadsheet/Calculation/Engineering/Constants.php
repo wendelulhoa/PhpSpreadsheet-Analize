@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Engineering;
+namespace Analize\PhpSpreadsheet\Calculation\Engineering;
 
 class Constants
 {

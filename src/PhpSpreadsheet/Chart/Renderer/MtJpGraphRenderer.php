@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart\Renderer;
+namespace Analize\PhpSpreadsheet\Chart\Renderer;
 
 use mitoteam\jpgraph\MtJpGraph;
 

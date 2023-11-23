@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xls;
+namespace Analize\PhpSpreadsheet\Writer\Xls;
 
-use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+use Analize\PhpSpreadsheet\Writer\Exception as WriterException;
 
 // Original file header of PEAR::Spreadsheet_Excel_Writer_BIFFwriter (used as the base for this class):
 // -----------------------------------------------------------------------------------------

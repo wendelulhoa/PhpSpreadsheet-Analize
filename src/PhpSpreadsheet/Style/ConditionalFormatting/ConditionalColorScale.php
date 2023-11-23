@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\ConditionalFormatting;
+namespace Analize\PhpSpreadsheet\Style\ConditionalFormatting;
 
-use PhpOffice\PhpSpreadsheet\Style\Color;
+use Analize\PhpSpreadsheet\Style\Color;
 
 class ConditionalColorScale
 {

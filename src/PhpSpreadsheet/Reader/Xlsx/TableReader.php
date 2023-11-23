@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+namespace Analize\PhpSpreadsheet\Reader\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Worksheet\Table;
-use PhpOffice\PhpSpreadsheet\Worksheet\Table\TableStyle;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Worksheet\Table;
+use Analize\PhpSpreadsheet\Worksheet\Table\TableStyle;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use SimpleXMLElement;
 
 class TableReader

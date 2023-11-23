@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Cell;
+namespace Analize\PhpSpreadsheet\Cell;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Exception;
 
 class AddressHelper
 {

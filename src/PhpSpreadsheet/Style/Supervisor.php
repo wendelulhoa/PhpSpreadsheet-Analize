@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style;
+namespace Analize\PhpSpreadsheet\Style;
 
-use PhpOffice\PhpSpreadsheet\IComparable;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\IComparable;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 
 abstract class Supervisor implements IComparable
 {

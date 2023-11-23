@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\NumberFormat\Wizard;
+namespace Analize\PhpSpreadsheet\Style\NumberFormat\Wizard;
 
 class Time extends DateTimeWizard
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet;
+namespace Analize\PhpSpreadsheet\Worksheet;
 
-use PhpOffice\PhpSpreadsheet\Cell\CellAddress;
-use PhpOffice\PhpSpreadsheet\Cell\CellRange;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\CellAddress;
+use Analize\PhpSpreadsheet\Cell\CellRange;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
 
 class AutoFit
 {

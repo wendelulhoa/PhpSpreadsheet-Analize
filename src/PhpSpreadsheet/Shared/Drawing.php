@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
 use GdImage;
-use PhpOffice\PhpSpreadsheet\Reader\Exception as ReaderException;
+use Analize\PhpSpreadsheet\Reader\Exception as ReaderException;
 use SimpleXMLElement;
 
 class Drawing
@@ -46,7 +46,7 @@ class Drawing
      *
      * @return float|int Value in cell dimension
      */
-    public static function pixelsToCellDimension($pixelValue, \PhpOffice\PhpSpreadsheet\Style\Font $defaultFont): int|float
+    public static function pixelsToCellDimension($pixelValue, \Analize\PhpSpreadsheet\Style\Font $defaultFont): int|float
     {
         // Font name and size
         $name = $defaultFont->getName();
@@ -68,11 +68,11 @@ class Drawing
      * Convert column width from (intrinsic) Excel units to pixels.
      *
      * @param float $cellWidth Value in cell dimension
-     * @param \PhpOffice\PhpSpreadsheet\Style\Font $defaultFont Default font of the workbook
+     * @param \Analize\PhpSpreadsheet\Style\Font $defaultFont Default font of the workbook
      *
      * @return int Value in pixels
      */
-    public static function cellDimensionToPixels($cellWidth, \PhpOffice\PhpSpreadsheet\Style\Font $defaultFont): int
+    public static function cellDimensionToPixels($cellWidth, \Analize\PhpSpreadsheet\Style\Font $defaultFont): int
     {
         // Font name and size
         $name = $defaultFont->getName();

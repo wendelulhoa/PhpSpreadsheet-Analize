@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style;
+namespace Analize\PhpSpreadsheet\Style;
 
-use PhpOffice\PhpSpreadsheet\Chart\ChartColor;
+use Analize\PhpSpreadsheet\Chart\ChartColor;
 
 class Font extends Supervisor
 {
@@ -176,7 +176,7 @@ class Font extends Supervisor
      *         'name' => 'Arial',
      *         'bold' => TRUE,
      *         'italic' => FALSE,
-     *         'underline' => \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLE,
+     *         'underline' => \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLE,
      *         'strikethrough' => FALSE,
      *         'color' => [
      *             'rgb' => '808080'
@@ -661,7 +661,7 @@ class Font extends Supervisor
     /**
      * Set Underline.
      *
-     * @param bool|string $underlineStyle \PhpOffice\PhpSpreadsheet\Style\Font underline type
+     * @param bool|string $underlineStyle \Analize\PhpSpreadsheet\Style\Font underline type
      *                                    If a boolean is passed, then TRUE equates to UNDERLINE_SINGLE,
      *                                        false equates to UNDERLINE_NONE
      *

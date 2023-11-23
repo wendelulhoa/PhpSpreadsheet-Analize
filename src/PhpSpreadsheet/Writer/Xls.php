@@ -1,31 +1,31 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer;
+namespace Analize\PhpSpreadsheet\Writer;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\RichText\Run;
-use PhpOffice\PhpSpreadsheet\Shared\Escher;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip;
-use PhpOffice\PhpSpreadsheet\Shared\OLE;
-use PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\File;
-use PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\Root;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\Drawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\MemoryDrawing;
-use PhpOffice\PhpSpreadsheet\Writer\Xls\Parser;
-use PhpOffice\PhpSpreadsheet\Writer\Xls\Workbook;
-use PhpOffice\PhpSpreadsheet\Writer\Xls\Worksheet;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\RichText\Run;
+use Analize\PhpSpreadsheet\Shared\Escher;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip;
+use Analize\PhpSpreadsheet\Shared\OLE;
+use Analize\PhpSpreadsheet\Shared\OLE\PPS\File;
+use Analize\PhpSpreadsheet\Shared\OLE\PPS\Root;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\BaseDrawing;
+use Analize\PhpSpreadsheet\Worksheet\Drawing;
+use Analize\PhpSpreadsheet\Worksheet\MemoryDrawing;
+use Analize\PhpSpreadsheet\Writer\Xls\Parser;
+use Analize\PhpSpreadsheet\Writer\Xls\Workbook;
+use Analize\PhpSpreadsheet\Writer\Xls\Worksheet;
 
 class Xls extends BaseWriter
 {
@@ -311,7 +311,7 @@ class Xls extends BaseWriter
                 $width = $drawing->getWidth();
                 $height = $drawing->getHeight();
 
-                $twoAnchor = \PhpOffice\PhpSpreadsheet\Shared\Xls::oneAnchor2twoAnchor($sheet, $coordinates, $offsetX, $offsetY, $width, $height);
+                $twoAnchor = \Analize\PhpSpreadsheet\Shared\Xls::oneAnchor2twoAnchor($sheet, $coordinates, $offsetX, $offsetY, $width, $height);
 
                 if (is_array($twoAnchor)) {
                     $spContainer->setStartCoordinates($twoAnchor['startCoordinates']);

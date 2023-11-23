@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\MathTrig\Trig;
+namespace Analize\PhpSpreadsheet\Calculation\MathTrig\Trig;
 
-use PhpOffice\PhpSpreadsheet\Calculation\ArrayEnabled;
-use PhpOffice\PhpSpreadsheet\Calculation\Exception;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Calculation\MathTrig\Helpers;
+use Analize\PhpSpreadsheet\Calculation\ArrayEnabled;
+use Analize\PhpSpreadsheet\Calculation\Exception;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\MathTrig\Helpers;
 
 class Tangent
 {

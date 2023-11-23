@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\LookupRef;
+namespace Analize\PhpSpreadsheet\Calculation\LookupRef;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
 
 class Filter
 {

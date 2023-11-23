@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Cell;
+namespace Analize\PhpSpreadsheet\Cell;
 
 use DateTimeInterface;
-use PhpOffice\PhpSpreadsheet\Exception as SpreadsheetException;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Exception as SpreadsheetException;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
 use Stringable;
 
 class DefaultValueBinder implements IValueBinder

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Statistical;
+namespace Analize\PhpSpreadsheet\Calculation\Statistical;
 
 abstract class MaxMinBase
 {

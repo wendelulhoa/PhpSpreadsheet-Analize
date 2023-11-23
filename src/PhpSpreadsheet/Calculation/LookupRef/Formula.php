@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\LookupRef;
+namespace Analize\PhpSpreadsheet\Calculation\LookupRef;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Cell\Cell;
 
 class Formula
 {

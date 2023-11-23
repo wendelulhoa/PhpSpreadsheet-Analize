@@ -1,17 +1,17 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet;
+namespace Analize\PhpSpreadsheet\Worksheet;
 
 use DateTime;
 use DateTimeZone;
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Calculation\Internal\WildcardMatch;
-use PhpOffice\PhpSpreadsheet\Cell\AddressRange;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Exception;
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter\Column\Rule;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Internal\WildcardMatch;
+use Analize\PhpSpreadsheet\Cell\AddressRange;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Shared\Date;
+use Analize\PhpSpreadsheet\Worksheet\AutoFilter\Column\Rule;
 use Stringable;
 
 class AutoFilter implements Stringable
@@ -1078,7 +1078,7 @@ class AutoFilter implements Stringable
                     $this->{$key} = clone $value;
                 }
             } elseif ((is_array($value)) && ($key == 'columns')) {
-                //    The columns array of \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet\AutoFilter objects
+                //    The columns array of \Analize\PhpSpreadsheet\Worksheet\Worksheet\AutoFilter objects
                 $this->{$key} = [];
                 foreach ($value as $k => $v) {
                     $this->{$key}[$k] = clone $v;

@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xml;
+namespace Analize\PhpSpreadsheet\Reader\Xml;
 
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Namespaces;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Namespaces;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\PageSetup;
 use SimpleXMLElement;
 use stdClass;
 

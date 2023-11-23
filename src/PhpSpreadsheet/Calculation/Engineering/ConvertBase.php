@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Engineering;
+namespace Analize\PhpSpreadsheet\Calculation\Engineering;
 
-use PhpOffice\PhpSpreadsheet\Calculation\ArrayEnabled;
-use PhpOffice\PhpSpreadsheet\Calculation\Exception;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\ArrayEnabled;
+use Analize\PhpSpreadsheet\Calculation\Exception;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
 
 abstract class ConvertBase
 {

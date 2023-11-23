@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\NumberFormat\Wizard;
+namespace Analize\PhpSpreadsheet\Style\NumberFormat\Wizard;
 
 use NumberFormatter;
-use PhpOffice\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Exception;
 
 final class Locale
 {

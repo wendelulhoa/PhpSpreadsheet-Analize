@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+namespace Analize\PhpSpreadsheet\Reader\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Document\Properties as DocumentProperties;
-use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
-use PhpOffice\PhpSpreadsheet\Settings;
+use Analize\PhpSpreadsheet\Document\Properties as DocumentProperties;
+use Analize\PhpSpreadsheet\Reader\Security\XmlScanner;
+use Analize\PhpSpreadsheet\Settings;
 use SimpleXMLElement;
 
 class Properties

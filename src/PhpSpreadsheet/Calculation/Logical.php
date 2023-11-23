@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
+namespace Analize\PhpSpreadsheet\Calculation;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Logical\Boolean;
+use Analize\PhpSpreadsheet\Calculation\Logical\Boolean;
 
 /**
  * @deprecated 1.17.0

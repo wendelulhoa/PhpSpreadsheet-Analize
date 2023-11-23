@@ -1,16 +1,16 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xls;
+namespace Analize\PhpSpreadsheet\Writer\Xls;
 
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Shared\Escher as SharedEscher;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Shared\Escher as SharedEscher;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip;
 
 class Escher
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Cell;
+namespace Analize\PhpSpreadsheet\Cell;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Engine\FormattedNumber;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Engine\FormattedNumber;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Shared\Date;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Style\NumberFormat;
 
 class AdvancedValueBinder extends DefaultValueBinder implements IValueBinder
 {

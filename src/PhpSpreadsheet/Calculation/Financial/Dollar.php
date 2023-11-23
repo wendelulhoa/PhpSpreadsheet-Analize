@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Financial;
+namespace Analize\PhpSpreadsheet\Calculation\Financial;
 
-use PhpOffice\PhpSpreadsheet\Calculation\ArrayEnabled;
-use PhpOffice\PhpSpreadsheet\Calculation\Exception;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Calculation\TextData\Format;
+use Analize\PhpSpreadsheet\Calculation\ArrayEnabled;
+use Analize\PhpSpreadsheet\Calculation\Exception;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\TextData\Format;
 
 class Dollar
 {

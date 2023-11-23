@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader;
+namespace Analize\PhpSpreadsheet\Reader;
 
 class DefaultReadFilter implements IReadFilter
 {

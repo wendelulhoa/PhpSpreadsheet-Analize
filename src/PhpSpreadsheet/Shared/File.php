@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
-use PhpOffice\PhpSpreadsheet\Exception;
-use PhpOffice\PhpSpreadsheet\Reader\Exception as ReaderException;
+use Analize\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Reader\Exception as ReaderException;
 use ZipArchive;
 
 class File

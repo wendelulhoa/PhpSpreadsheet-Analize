@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader;
+namespace Analize\PhpSpreadsheet\Reader;
 
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-use PhpOffice\PhpSpreadsheet\Reader\Exception as ReaderException;
-use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
-use PhpOffice\PhpSpreadsheet\Shared\File;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use Analize\PhpSpreadsheet\Reader\Exception as ReaderException;
+use Analize\PhpSpreadsheet\Reader\Security\XmlScanner;
+use Analize\PhpSpreadsheet\Shared\File;
+use Analize\PhpSpreadsheet\Spreadsheet;
 
 abstract class BaseReader implements IReader
 {

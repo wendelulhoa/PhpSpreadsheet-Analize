@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Statistical;
+namespace Analize\PhpSpreadsheet\Calculation\Statistical;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Database\DAverage;
-use PhpOffice\PhpSpreadsheet\Calculation\Database\DCount;
-use PhpOffice\PhpSpreadsheet\Calculation\Database\DMax;
-use PhpOffice\PhpSpreadsheet\Calculation\Database\DMin;
-use PhpOffice\PhpSpreadsheet\Calculation\Database\DSum;
-use PhpOffice\PhpSpreadsheet\Calculation\Exception as CalcException;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Database\DAverage;
+use Analize\PhpSpreadsheet\Calculation\Database\DCount;
+use Analize\PhpSpreadsheet\Calculation\Database\DMax;
+use Analize\PhpSpreadsheet\Calculation\Database\DMin;
+use Analize\PhpSpreadsheet\Calculation\Database\DSum;
+use Analize\PhpSpreadsheet\Calculation\Exception as CalcException;
+use Analize\PhpSpreadsheet\Calculation\Functions;
 
 class Conditional
 {

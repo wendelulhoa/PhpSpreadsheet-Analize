@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Engine;
+namespace Analize\PhpSpreadsheet\Calculation\Engine;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Functions;
 
 class ArrayArgumentProcessor
 {

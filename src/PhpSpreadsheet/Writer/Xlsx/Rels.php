@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+namespace Analize\PhpSpreadsheet\Writer\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Namespaces;
-use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\MemoryDrawing;
-use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Namespaces;
+use Analize\PhpSpreadsheet\Shared\XMLWriter;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\BaseDrawing;
+use Analize\PhpSpreadsheet\Worksheet\MemoryDrawing;
+use Analize\PhpSpreadsheet\Writer\Exception as WriterException;
 
 class Rels extends WriterPart
 {
@@ -169,7 +169,7 @@ class Rels extends WriterPart
      *
      * @return string XML Output
      */
-    public function writeWorksheetRelationships(\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $worksheet, $worksheetId = 1, $includeCharts = false, $tableRef = 1, array &$zipContent = [])
+    public function writeWorksheetRelationships(\Analize\PhpSpreadsheet\Worksheet\Worksheet $worksheet, $worksheetId = 1, $includeCharts = false, $tableRef = 1, array &$zipContent = [])
     {
         // Create XML writer
         $objWriter = null;
@@ -204,7 +204,7 @@ class Rels extends WriterPart
 
             // Use original $relPath to get original $rId.
             // Take first. In future can be overwritten.
-            // (! synchronize with \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet::writeDrawings)
+            // (! synchronize with \Analize\PhpSpreadsheet\Writer\Xlsx\Worksheet::writeDrawings)
             reset($drawingOriginalIds);
             $relPath = key($drawingOriginalIds);
             if (isset($drawingOriginalIds[$relPath])) {
@@ -302,7 +302,7 @@ class Rels extends WriterPart
         return $objWriter->getData();
     }
 
-    private function writeUnparsedRelationship(\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $worksheet, XMLWriter $objWriter, string $relationship, string $type): void
+    private function writeUnparsedRelationship(\Analize\PhpSpreadsheet\Worksheet\Worksheet $worksheet, XMLWriter $objWriter, string $relationship, string $type): void
     {
         $unparsedLoadedData = $worksheet->getParentOrThrow()->getUnparsedLoadedData();
         if (!isset($unparsedLoadedData['sheets'][$worksheet->getCodeName()][$relationship])) {
@@ -329,7 +329,7 @@ class Rels extends WriterPart
      *
      * @return string XML Output
      */
-    public function writeDrawingRelationships(\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $worksheet, &$chartRef, $includeCharts = false)
+    public function writeDrawingRelationships(\Analize\PhpSpreadsheet\Worksheet\Worksheet $worksheet, &$chartRef, $includeCharts = false)
     {
         // Create XML writer
         $objWriter = null;
@@ -352,7 +352,7 @@ class Rels extends WriterPart
         while ($iterator->valid()) {
             $drawing = $iterator->current();
             if (
-                $drawing instanceof \PhpOffice\PhpSpreadsheet\Worksheet\Drawing
+                $drawing instanceof \Analize\PhpSpreadsheet\Worksheet\Drawing
                 || $drawing instanceof MemoryDrawing
             ) {
                 // Write relationship for image drawing
@@ -395,7 +395,7 @@ class Rels extends WriterPart
      *
      * @return string XML Output
      */
-    public function writeHeaderFooterDrawingRelationships(\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $worksheet)
+    public function writeHeaderFooterDrawingRelationships(\Analize\PhpSpreadsheet\Worksheet\Worksheet $worksheet)
     {
         // Create XML writer
         $objWriter = null;
@@ -428,7 +428,7 @@ class Rels extends WriterPart
         return $objWriter->getData();
     }
 
-    public function writeVMLDrawingRelationships(\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $worksheet): string
+    public function writeVMLDrawingRelationships(\Analize\PhpSpreadsheet\Worksheet\Worksheet $worksheet): string
     {
         // Create XML writer
         $objWriter = null;

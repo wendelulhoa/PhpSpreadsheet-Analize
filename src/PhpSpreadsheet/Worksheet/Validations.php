@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet;
+namespace Analize\PhpSpreadsheet\Worksheet;
 
-use PhpOffice\PhpSpreadsheet\Cell\AddressRange;
-use PhpOffice\PhpSpreadsheet\Cell\CellAddress;
-use PhpOffice\PhpSpreadsheet\Cell\CellRange;
-use PhpOffice\PhpSpreadsheet\Exception as SpreadsheetException;
+use Analize\PhpSpreadsheet\Cell\AddressRange;
+use Analize\PhpSpreadsheet\Cell\CellAddress;
+use Analize\PhpSpreadsheet\Cell\CellRange;
+use Analize\PhpSpreadsheet\Exception as SpreadsheetException;
 
 class Validations
 {

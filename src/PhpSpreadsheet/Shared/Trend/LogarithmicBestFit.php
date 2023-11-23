@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
+namespace Analize\PhpSpreadsheet\Shared\Trend;
 
 class LogarithmicBestFit extends BestFit
 {

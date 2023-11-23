@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet;
+namespace Analize\PhpSpreadsheet;
 
-use PhpOffice\PhpSpreadsheet\Cell\AddressRange;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\AddressRange;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
 
 class CellReferenceHelper
 {

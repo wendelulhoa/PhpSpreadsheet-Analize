@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xls\Style;
+namespace Analize\PhpSpreadsheet\Writer\Xls\Style;
 
-use PhpOffice\PhpSpreadsheet\Style\Fill;
+use Analize\PhpSpreadsheet\Style\Fill;
 
 class CellFill
 {

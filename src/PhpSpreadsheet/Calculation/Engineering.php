@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
+namespace Analize\PhpSpreadsheet\Calculation;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Engineering\ComplexFunctions;
-use PhpOffice\PhpSpreadsheet\Calculation\Engineering\ComplexOperations;
+use Analize\PhpSpreadsheet\Calculation\Engineering\ComplexFunctions;
+use Analize\PhpSpreadsheet\Calculation\Engineering\ComplexOperations;
 
 /**
  * @deprecated 1.18.0

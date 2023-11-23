@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Style\Alignment;
-use PhpOffice\PhpSpreadsheet\Style\Font as FontStyle;
+use Analize\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Style\Alignment;
+use Analize\PhpSpreadsheet\Style\Font as FontStyle;
 
 class Font
 {

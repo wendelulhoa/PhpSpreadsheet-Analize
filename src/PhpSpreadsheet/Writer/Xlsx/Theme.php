@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+namespace Analize\PhpSpreadsheet\Writer\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Namespaces;
-use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Theme as SpreadsheetTheme;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Namespaces;
+use Analize\PhpSpreadsheet\Shared\XMLWriter;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Theme as SpreadsheetTheme;
 
 class Theme extends WriterPart
 {

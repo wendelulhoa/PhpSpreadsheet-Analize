@@ -1,21 +1,21 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Cell;
+namespace Analize\PhpSpreadsheet\Cell;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Exception as CalculationException;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Collection\Cells;
-use PhpOffice\PhpSpreadsheet\Exception as SpreadsheetException;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Shared\Date as SharedDate;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-use PhpOffice\PhpSpreadsheet\Style\ConditionalFormatting\CellStyleAssessor;
-use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
-use PhpOffice\PhpSpreadsheet\Style\Protection;
-use PhpOffice\PhpSpreadsheet\Style\Style;
-use PhpOffice\PhpSpreadsheet\Worksheet\Table;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Exception as CalculationException;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Collection\Cells;
+use Analize\PhpSpreadsheet\Exception as SpreadsheetException;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Shared\Date as SharedDate;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Style\ConditionalFormatting\CellStyleAssessor;
+use Analize\PhpSpreadsheet\Style\NumberFormat;
+use Analize\PhpSpreadsheet\Style\Protection;
+use Analize\PhpSpreadsheet\Style\Style;
+use Analize\PhpSpreadsheet\Worksheet\Table;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use Stringable;
 
 class Cell implements Stringable

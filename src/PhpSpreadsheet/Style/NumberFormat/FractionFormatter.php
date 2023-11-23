@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+namespace Analize\PhpSpreadsheet\Style\NumberFormat;
 
-use PhpOffice\PhpSpreadsheet\Calculation\MathTrig;
+use Analize\PhpSpreadsheet\Calculation\MathTrig;
 
 class FractionFormatter extends BaseFormatter
 {

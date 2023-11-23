@@ -1,18 +1,18 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Ods\Cell;
+namespace Analize\PhpSpreadsheet\Writer\Ods\Cell;
 
-use PhpOffice\PhpSpreadsheet\Helper\Dimension;
-use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
-use PhpOffice\PhpSpreadsheet\Style\Alignment;
-use PhpOffice\PhpSpreadsheet\Style\Border;
-use PhpOffice\PhpSpreadsheet\Style\Borders;
-use PhpOffice\PhpSpreadsheet\Style\Fill;
-use PhpOffice\PhpSpreadsheet\Style\Font;
-use PhpOffice\PhpSpreadsheet\Style\Style as CellStyle;
-use PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension;
-use PhpOffice\PhpSpreadsheet\Worksheet\RowDimension;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Helper\Dimension;
+use Analize\PhpSpreadsheet\Shared\XMLWriter;
+use Analize\PhpSpreadsheet\Style\Alignment;
+use Analize\PhpSpreadsheet\Style\Border;
+use Analize\PhpSpreadsheet\Style\Borders;
+use Analize\PhpSpreadsheet\Style\Fill;
+use Analize\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\Style as CellStyle;
+use Analize\PhpSpreadsheet\Worksheet\ColumnDimension;
+use Analize\PhpSpreadsheet\Worksheet\RowDimension;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 
 class Style
 {

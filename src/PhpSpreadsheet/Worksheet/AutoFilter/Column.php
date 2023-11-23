@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter;
+namespace Analize\PhpSpreadsheet\Worksheet\AutoFilter;
 
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-use PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter;
+use Analize\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use Analize\PhpSpreadsheet\Worksheet\AutoFilter;
 
 class Column
 {
@@ -385,7 +385,7 @@ class Column
                 // Detach from autofilter parent
                 $this->parent = null;
             } elseif ($key === 'ruleset') {
-                // The columns array of \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet\AutoFilter objects
+                // The columns array of \Analize\PhpSpreadsheet\Worksheet\Worksheet\AutoFilter objects
                 $this->ruleset = [];
                 foreach ($value as $k => $v) {
                     $cloned = clone $v;

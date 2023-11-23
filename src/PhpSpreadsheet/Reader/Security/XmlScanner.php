@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Security;
+namespace Analize\PhpSpreadsheet\Reader\Security;
 
-use PhpOffice\PhpSpreadsheet\Reader;
+use Analize\PhpSpreadsheet\Reader;
 
 class XmlScanner
 {

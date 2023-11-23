@@ -1,16 +1,16 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer;
+namespace Analize\PhpSpreadsheet\Writer;
 
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Content;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Meta;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\MetaInf;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Mimetype;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Settings;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Styles;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Thumbnails;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Writer\Exception as WriterException;
+use Analize\PhpSpreadsheet\Writer\Ods\Content;
+use Analize\PhpSpreadsheet\Writer\Ods\Meta;
+use Analize\PhpSpreadsheet\Writer\Ods\MetaInf;
+use Analize\PhpSpreadsheet\Writer\Ods\Mimetype;
+use Analize\PhpSpreadsheet\Writer\Ods\Settings;
+use Analize\PhpSpreadsheet\Writer\Ods\Styles;
+use Analize\PhpSpreadsheet\Writer\Ods\Thumbnails;
 use ZipStream\Exception\OverflowException;
 use ZipStream\ZipStream;
 

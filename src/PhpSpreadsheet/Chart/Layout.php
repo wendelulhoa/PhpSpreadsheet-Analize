@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart;
+namespace Analize\PhpSpreadsheet\Chart;
 
-use PhpOffice\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\Font;
 
 class Layout
 {

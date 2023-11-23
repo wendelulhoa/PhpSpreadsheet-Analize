@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart\Renderer;
+namespace Analize\PhpSpreadsheet\Chart\Renderer;
 
 use AccBarPlot;
 use AccLinePlot;
@@ -9,8 +9,8 @@ use ContourPlot;
 use Graph;
 use GroupBarPlot;
 use LinePlot;
-use PhpOffice\PhpSpreadsheet\Chart\Chart;
-use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+use Analize\PhpSpreadsheet\Chart\Chart;
+use Analize\PhpSpreadsheet\Style\NumberFormat;
 use PieGraph;
 use PiePlot;
 use PiePlot3D;

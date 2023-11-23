@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\ConditionalFormatting;
+namespace Analize\PhpSpreadsheet\Style\ConditionalFormatting;
 
-use PhpOffice\PhpSpreadsheet\Style\Border;
-use PhpOffice\PhpSpreadsheet\Style\Borders;
-use PhpOffice\PhpSpreadsheet\Style\Fill;
-use PhpOffice\PhpSpreadsheet\Style\Font;
-use PhpOffice\PhpSpreadsheet\Style\Style;
+use Analize\PhpSpreadsheet\Style\Border;
+use Analize\PhpSpreadsheet\Style\Borders;
+use Analize\PhpSpreadsheet\Style\Fill;
+use Analize\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\Style;
 
 class StyleMerger
 {

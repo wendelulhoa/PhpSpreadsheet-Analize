@@ -1,24 +1,24 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader;
+namespace Analize\PhpSpreadsheet\Reader;
 
 use DOMDocument;
 use DOMElement;
 use DOMNode;
 use DOMText;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\Document\Properties;
-use PhpOffice\PhpSpreadsheet\Helper\Dimension as CssDimension;
-use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Style\Border;
-use PhpOffice\PhpSpreadsheet\Style\Color;
-use PhpOffice\PhpSpreadsheet\Style\Fill;
-use PhpOffice\PhpSpreadsheet\Style\Font;
-use PhpOffice\PhpSpreadsheet\Style\Style;
-use PhpOffice\PhpSpreadsheet\Worksheet\Drawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\Document\Properties;
+use Analize\PhpSpreadsheet\Helper\Dimension as CssDimension;
+use Analize\PhpSpreadsheet\Reader\Security\XmlScanner;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Style\Border;
+use Analize\PhpSpreadsheet\Style\Color;
+use Analize\PhpSpreadsheet\Style\Fill;
+use Analize\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\Style;
+use Analize\PhpSpreadsheet\Worksheet\Drawing;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use Throwable;
 
 class Html extends BaseReader
@@ -307,7 +307,7 @@ class Html extends BaseReader
                     //catching the Exception and ignoring the invalid data types
                     try {
                         $sheet->setCellValueExplicit($column . $row, $cellContent, $attributeArray['data-type']);
-                    } catch (\PhpOffice\PhpSpreadsheet\Exception) {
+                    } catch (\Analize\PhpSpreadsheet\Exception) {
                         $sheet->setCellValue($column . $row, $cellContent);
                     }
                 } else {
@@ -1048,7 +1048,7 @@ class Html extends BaseReader
             return substr($value, 1);
         }
 
-        return \PhpOffice\PhpSpreadsheet\Helper\Html::colourNameLookup($value);
+        return \Analize\PhpSpreadsheet\Helper\Html::colourNameLookup($value);
     }
 
     private function insertImage(Worksheet $sheet, string $column, int $row, array $attributes): void

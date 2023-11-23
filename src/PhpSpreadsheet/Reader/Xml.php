@@ -1,25 +1,25 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader;
+namespace Analize\PhpSpreadsheet\Reader;
 
 use DateTime;
 use DateTimeZone;
-use PhpOffice\PhpSpreadsheet\Cell\AddressHelper;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\DefinedName;
-use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Namespaces;
-use PhpOffice\PhpSpreadsheet\Reader\Xml\PageSettings;
-use PhpOffice\PhpSpreadsheet\Reader\Xml\Properties;
-use PhpOffice\PhpSpreadsheet\Reader\Xml\Style;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Settings;
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Shared\File;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Cell\AddressHelper;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\DefinedName;
+use Analize\PhpSpreadsheet\Reader\Security\XmlScanner;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Namespaces;
+use Analize\PhpSpreadsheet\Reader\Xml\PageSettings;
+use Analize\PhpSpreadsheet\Reader\Xml\Properties;
+use Analize\PhpSpreadsheet\Reader\Xml\Style;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Settings;
+use Analize\PhpSpreadsheet\Shared\Date;
+use Analize\PhpSpreadsheet\Shared\File;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use SimpleXMLElement;
 
 /**

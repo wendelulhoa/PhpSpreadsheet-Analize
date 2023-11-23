@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\RichText;
+namespace Analize\PhpSpreadsheet\RichText;
 
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\IComparable;
+use Analize\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\IComparable;
 use Stringable;
 
 class RichText implements IComparable, Stringable

@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\ConditionalFormatting\Wizard;
+namespace Analize\PhpSpreadsheet\Style\ConditionalFormatting\Wizard;
 
-use PhpOffice\PhpSpreadsheet\Style\Conditional;
-use PhpOffice\PhpSpreadsheet\Style\Style;
+use Analize\PhpSpreadsheet\Style\Conditional;
+use Analize\PhpSpreadsheet\Style\Style;
 
 interface WizardInterface
 {

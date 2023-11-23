@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xls;
+namespace Analize\PhpSpreadsheet\Reader\Xls;
 
 class RC4
 {

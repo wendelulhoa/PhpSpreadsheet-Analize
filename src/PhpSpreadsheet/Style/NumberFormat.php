@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style;
+namespace Analize\PhpSpreadsheet\Style;
 
 class NumberFormat extends Supervisor
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\ConditionalFormatting\Wizard;
+namespace Analize\PhpSpreadsheet\Style\ConditionalFormatting\Wizard;
 
-use PhpOffice\PhpSpreadsheet\Exception;
-use PhpOffice\PhpSpreadsheet\Style\Conditional;
+use Analize\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Style\Conditional;
 
 /**
  * @method Errors duplicates()

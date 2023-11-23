@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\RichText;
+namespace Analize\PhpSpreadsheet\RichText;
 
-use PhpOffice\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\Font;
 
 class TextElement implements ITextElement
 {

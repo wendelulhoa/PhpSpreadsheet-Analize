@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Document;
+namespace Analize\PhpSpreadsheet\Document;
 
 use DateTime;
-use PhpOffice\PhpSpreadsheet\Shared\IntOrFloat;
+use Analize\PhpSpreadsheet\Shared\IntOrFloat;
 
 class Properties
 {

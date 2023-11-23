@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Ods;
+namespace Analize\PhpSpreadsheet\Reader\Ods;
 
 use DOMElement;
 use DOMNode;

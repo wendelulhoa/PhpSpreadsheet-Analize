@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
+namespace Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
 
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
 
 class BSE
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Statistical\Averages;
+namespace Analize\PhpSpreadsheet\Calculation\Statistical\Averages;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Calculation\MathTrig;
-use PhpOffice\PhpSpreadsheet\Calculation\Statistical\Averages;
-use PhpOffice\PhpSpreadsheet\Calculation\Statistical\Counts;
-use PhpOffice\PhpSpreadsheet\Calculation\Statistical\Minimum;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\MathTrig;
+use Analize\PhpSpreadsheet\Calculation\Statistical\Averages;
+use Analize\PhpSpreadsheet\Calculation\Statistical\Counts;
+use Analize\PhpSpreadsheet\Calculation\Statistical\Minimum;
 
 class Mean
 {

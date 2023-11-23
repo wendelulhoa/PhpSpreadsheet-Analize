@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart\Renderer;
+namespace Analize\PhpSpreadsheet\Chart\Renderer;
 
-use PhpOffice\PhpSpreadsheet\Chart\Chart;
+use Analize\PhpSpreadsheet\Chart\Chart;
 
 interface IRenderer
 {

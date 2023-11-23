@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart;
+namespace Analize\PhpSpreadsheet\Chart;
 
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 
 class DataSeries
 {

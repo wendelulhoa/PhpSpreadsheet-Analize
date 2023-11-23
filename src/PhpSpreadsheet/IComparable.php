@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet;
+namespace Analize\PhpSpreadsheet;
 
 interface IComparable
 {

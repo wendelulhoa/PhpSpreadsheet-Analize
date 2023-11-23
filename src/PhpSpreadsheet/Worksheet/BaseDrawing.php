@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Worksheet;
+namespace Analize\PhpSpreadsheet\Worksheet;
 
-use PhpOffice\PhpSpreadsheet\Cell\Hyperlink;
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-use PhpOffice\PhpSpreadsheet\IComparable;
-use PhpOffice\PhpSpreadsheet\Worksheet\Drawing\Shadow;
+use Analize\PhpSpreadsheet\Cell\Hyperlink;
+use Analize\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use Analize\PhpSpreadsheet\IComparable;
+use Analize\PhpSpreadsheet\Worksheet\Drawing\Shadow;
 use SimpleXMLElement;
 
 class BaseDrawing implements IComparable
@@ -211,7 +211,7 @@ class BaseDrawing implements IComparable
     public function setWorksheet(?Worksheet $worksheet = null, bool $overrideOld = false): self
     {
         if ($this->worksheet === null) {
-            // Add drawing to \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+            // Add drawing to \Analize\PhpSpreadsheet\Worksheet\Worksheet
             if ($worksheet !== null) {
                 $this->worksheet = $worksheet;
                 $this->worksheet->getCell($this->coordinates);
@@ -219,7 +219,7 @@ class BaseDrawing implements IComparable
             }
         } else {
             if ($overrideOld) {
-                // Remove drawing from old \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+                // Remove drawing from old \Analize\PhpSpreadsheet\Worksheet\Worksheet
                 $iterator = $this->worksheet->getDrawingCollection()->getIterator();
 
                 while ($iterator->valid()) {
@@ -231,10 +231,10 @@ class BaseDrawing implements IComparable
                     }
                 }
 
-                // Set new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+                // Set new \Analize\PhpSpreadsheet\Worksheet\Worksheet
                 $this->setWorksheet($worksheet);
             } else {
-                throw new PhpSpreadsheetException('A Worksheet has already been assigned. Drawings can only exist on one \\PhpOffice\\PhpSpreadsheet\\Worksheet.');
+                throw new PhpSpreadsheetException('A Worksheet has already been assigned. Drawings can only exist on one \\Analize\\PhpSpreadsheet\\Worksheet.');
             }
         }
 

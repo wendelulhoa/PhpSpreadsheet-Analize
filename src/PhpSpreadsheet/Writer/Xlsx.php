@@ -1,34 +1,34 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer;
+namespace Analize\PhpSpreadsheet\Writer;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Calculation\Functions;
-use PhpOffice\PhpSpreadsheet\HashTable;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Style\Borders;
-use PhpOffice\PhpSpreadsheet\Style\Conditional;
-use PhpOffice\PhpSpreadsheet\Style\Fill;
-use PhpOffice\PhpSpreadsheet\Style\Font;
-use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
-use PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\Drawing as WorksheetDrawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\MemoryDrawing;
-use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Chart;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Comments;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\ContentTypes;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\DocProps;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Drawing;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Rels;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\RelsRibbon;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\RelsVBA;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\StringTable;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Style;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Table;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Theme;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Workbook;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Calculation\Functions;
+use Analize\PhpSpreadsheet\HashTable;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Style\Borders;
+use Analize\PhpSpreadsheet\Style\Conditional;
+use Analize\PhpSpreadsheet\Style\Fill;
+use Analize\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Style\NumberFormat;
+use Analize\PhpSpreadsheet\Worksheet\BaseDrawing;
+use Analize\PhpSpreadsheet\Worksheet\Drawing as WorksheetDrawing;
+use Analize\PhpSpreadsheet\Worksheet\MemoryDrawing;
+use Analize\PhpSpreadsheet\Writer\Exception as WriterException;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Chart;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Comments;
+use Analize\PhpSpreadsheet\Writer\Xlsx\ContentTypes;
+use Analize\PhpSpreadsheet\Writer\Xlsx\DocProps;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Drawing;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Rels;
+use Analize\PhpSpreadsheet\Writer\Xlsx\RelsRibbon;
+use Analize\PhpSpreadsheet\Writer\Xlsx\RelsVBA;
+use Analize\PhpSpreadsheet\Writer\Xlsx\StringTable;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Style;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Table;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Theme;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Workbook;
+use Analize\PhpSpreadsheet\Writer\Xlsx\Worksheet;
 use ZipArchive;
 use ZipStream\Exception\OverflowException;
 use ZipStream\ZipStream;
@@ -66,7 +66,7 @@ class Xlsx extends BaseWriter
     /**
      * Private unique Style HashTable.
      *
-     * @var HashTable<\PhpOffice\PhpSpreadsheet\Style\Style>
+     * @var HashTable<\Analize\PhpSpreadsheet\Style\Style>
      */
     private HashTable $styleHashTable;
 
@@ -78,7 +78,7 @@ class Xlsx extends BaseWriter
     private HashTable $fillHashTable;
 
     /**
-     * Private unique \PhpOffice\PhpSpreadsheet\Style\Font HashTable.
+     * Private unique \Analize\PhpSpreadsheet\Style\Font HashTable.
      *
      * @var HashTable<Font>
      */
@@ -99,7 +99,7 @@ class Xlsx extends BaseWriter
     private HashTable $numFmtHashTable;
 
     /**
-     * Private unique \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet\BaseDrawing HashTable.
+     * Private unique \Analize\PhpSpreadsheet\Worksheet\Worksheet\BaseDrawing HashTable.
      *
      * @var HashTable<BaseDrawing>
      */
@@ -557,7 +557,7 @@ class Xlsx extends BaseWriter
     /**
      * Get Style HashTable.
      *
-     * @return HashTable<\PhpOffice\PhpSpreadsheet\Style\Style>
+     * @return HashTable<\Analize\PhpSpreadsheet\Style\Style>
      */
     public function getStyleHashTable()
     {
@@ -585,7 +585,7 @@ class Xlsx extends BaseWriter
     }
 
     /**
-     * Get \PhpOffice\PhpSpreadsheet\Style\Font HashTable.
+     * Get \Analize\PhpSpreadsheet\Style\Font HashTable.
      *
      * @return HashTable<Font>
      */
@@ -615,7 +615,7 @@ class Xlsx extends BaseWriter
     }
 
     /**
-     * Get \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet\BaseDrawing HashTable.
+     * Get \Analize\PhpSpreadsheet\Worksheet\Worksheet\BaseDrawing HashTable.
      *
      * @return HashTable<BaseDrawing>
      */

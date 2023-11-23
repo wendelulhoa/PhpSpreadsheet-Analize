@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Logical;
+namespace Analize\PhpSpreadsheet\Calculation\Logical;
 
 class Boolean
 {

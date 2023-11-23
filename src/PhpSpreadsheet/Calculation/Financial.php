@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
+namespace Analize\PhpSpreadsheet\Calculation;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Amortization;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Coupons;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Depreciation;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Dollar;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\InterestRate;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Securities;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\TreasuryBill;
+use Analize\PhpSpreadsheet\Calculation\Financial\Amortization;
+use Analize\PhpSpreadsheet\Calculation\Financial\Coupons;
+use Analize\PhpSpreadsheet\Calculation\Financial\Depreciation;
+use Analize\PhpSpreadsheet\Calculation\Financial\Dollar;
+use Analize\PhpSpreadsheet\Calculation\Financial\InterestRate;
+use Analize\PhpSpreadsheet\Calculation\Financial\Securities;
+use Analize\PhpSpreadsheet\Calculation\Financial\TreasuryBill;
 
 /**
  * @deprecated 1.18.0

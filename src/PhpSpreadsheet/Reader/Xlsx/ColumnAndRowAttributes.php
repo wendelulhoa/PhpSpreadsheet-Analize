@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+namespace Analize\PhpSpreadsheet\Reader\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Reader\DefaultReadFilter;
-use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Reader\DefaultReadFilter;
+use Analize\PhpSpreadsheet\Reader\IReadFilter;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use SimpleXMLElement;
 
 class ColumnAndRowAttributes extends BaseParserClass

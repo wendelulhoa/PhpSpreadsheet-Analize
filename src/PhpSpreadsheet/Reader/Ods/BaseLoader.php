@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Ods;
+namespace Analize\PhpSpreadsheet\Reader\Ods;
 
 use DOMElement;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Spreadsheet;
 
 abstract class BaseLoader
 {

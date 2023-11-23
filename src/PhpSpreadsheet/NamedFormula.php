@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet;
+namespace Analize\PhpSpreadsheet;
 
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 
 class NamedFormula extends DefinedName
 {

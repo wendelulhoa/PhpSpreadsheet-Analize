@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Financial;
+namespace Analize\PhpSpreadsheet\Calculation\Financial;
 
 class Constants
 {

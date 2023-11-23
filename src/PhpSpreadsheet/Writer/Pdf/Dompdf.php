@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Pdf;
+namespace Analize\PhpSpreadsheet\Writer\Pdf;
 
-use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
-use PhpOffice\PhpSpreadsheet\Writer\Pdf;
+use Analize\PhpSpreadsheet\Worksheet\PageSetup;
+use Analize\PhpSpreadsheet\Writer\Pdf;
 
 class Dompdf extends Pdf
 {

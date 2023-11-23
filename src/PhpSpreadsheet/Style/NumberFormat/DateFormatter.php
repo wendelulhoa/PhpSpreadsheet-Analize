@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+namespace Analize\PhpSpreadsheet\Style\NumberFormat;
 
-use PhpOffice\PhpSpreadsheet\Shared\Date;
+use Analize\PhpSpreadsheet\Shared\Date;
 
 class DateFormatter
 {

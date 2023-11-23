@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer;
+namespace Analize\PhpSpreadsheet\Writer;
 
 use ZipStream\Option\Archive;
 use ZipStream\ZipStream;

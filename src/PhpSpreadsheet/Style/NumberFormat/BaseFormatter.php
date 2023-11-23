@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+namespace Analize\PhpSpreadsheet\Style\NumberFormat;
 
 abstract class BaseFormatter
 {

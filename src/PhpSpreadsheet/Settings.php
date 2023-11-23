@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet;
+namespace Analize\PhpSpreadsheet;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Chart\Renderer\IRenderer;
-use PhpOffice\PhpSpreadsheet\Collection\Memory;
+use Analize\PhpSpreadsheet\Calculation\Calculation;
+use Analize\PhpSpreadsheet\Chart\Renderer\IRenderer;
+use Analize\PhpSpreadsheet\Collection\Memory;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\SimpleCache\CacheInterface;
@@ -14,7 +14,7 @@ class Settings
 {
     /**
      * Class name of the chart renderer used for rendering charts
-     * eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph.
+     * eg: Analize\PhpSpreadsheet\Chart\Renderer\JpGraph.
      *
      * @var ?string
      */
@@ -67,7 +67,7 @@ class Settings
      * Identify to PhpSpreadsheet the external library to use for rendering charts.
      *
      * @param string $rendererClassName Class name of the chart renderer
-     *    eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph
+     *    eg: Analize\PhpSpreadsheet\Chart\Renderer\JpGraph
      */
     public static function setChartRenderer(string $rendererClassName): void
     {
@@ -82,7 +82,7 @@ class Settings
      * Return the Chart Rendering Library that PhpSpreadsheet is currently configured to use.
      *
      * @return null|string Class name of the chart renderer
-     *    eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph
+     *    eg: Analize\PhpSpreadsheet\Chart\Renderer\JpGraph
      */
     public static function getChartRenderer(): ?string
     {

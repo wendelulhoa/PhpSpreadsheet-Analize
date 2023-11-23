@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+namespace Analize\PhpSpreadsheet\Reader\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
-use PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter\Column;
-use PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter\Column\Rule;
-use PhpOffice\PhpSpreadsheet\Worksheet\Table;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Reader\Xlsx;
+use Analize\PhpSpreadsheet\Worksheet\AutoFilter\Column;
+use Analize\PhpSpreadsheet\Worksheet\AutoFilter\Column\Rule;
+use Analize\PhpSpreadsheet\Worksheet\Table;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use SimpleXMLElement;
 
 class AutoFilter

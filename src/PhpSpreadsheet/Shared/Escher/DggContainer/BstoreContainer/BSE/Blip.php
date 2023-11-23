@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
+namespace Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
 
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
+use Analize\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
 
 class Blip
 {

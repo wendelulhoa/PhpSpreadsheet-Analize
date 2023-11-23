@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
 // vim: set expandtab tabstop=4 shiftwidth=4:
 // +----------------------------------------------------------------------+
@@ -21,10 +21,10 @@ namespace PhpOffice\PhpSpreadsheet\Shared;
 // +----------------------------------------------------------------------+
 //
 
-use PhpOffice\PhpSpreadsheet\Exception;
-use PhpOffice\PhpSpreadsheet\Reader\Exception as ReaderException;
-use PhpOffice\PhpSpreadsheet\Shared\OLE\ChainedBlockStream;
-use PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\Root;
+use Analize\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Reader\Exception as ReaderException;
+use Analize\PhpSpreadsheet\Shared\OLE\ChainedBlockStream;
+use Analize\PhpSpreadsheet\Shared\OLE\PPS\Root;
 
 /*
  * Array for storing OLE instances that are accessed from
@@ -208,7 +208,7 @@ class OLE
 
     /**
      * Returns a stream for use with fread() etc. External callers should
-     * use \PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\File::getStream().
+     * use \Analize\PhpSpreadsheet\Shared\OLE\PPS\File::getStream().
      *
      * @param int|OLE\PPS $blockIdOrPps block id or PPS
      *

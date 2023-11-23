@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\OLE\PPS;
+namespace Analize\PhpSpreadsheet\Shared\OLE\PPS;
 
 // vim: set expandtab tabstop=4 shiftwidth=4:
 // +----------------------------------------------------------------------+
@@ -20,8 +20,8 @@ namespace PhpOffice\PhpSpreadsheet\Shared\OLE\PPS;
 // | Based on OLE::Storage_Lite by Kawai, Takanori                        |
 // +----------------------------------------------------------------------+
 //
-use PhpOffice\PhpSpreadsheet\Shared\OLE;
-use PhpOffice\PhpSpreadsheet\Shared\OLE\PPS;
+use Analize\PhpSpreadsheet\Shared\OLE;
+use Analize\PhpSpreadsheet\Shared\OLE\PPS;
 
 /**
  * Class for creating Root PPS's for OLE containers.
@@ -227,7 +227,7 @@ class Root extends PPS
     }
 
     /**
-     * Saving big data (PPS's with data bigger than \PhpOffice\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
+     * Saving big data (PPS's with data bigger than \Analize\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
      *
      * @param array $raList Reference to array of PPS's
      */
@@ -257,7 +257,7 @@ class Root extends PPS
     }
 
     /**
-     * get small data (PPS's with data smaller than \PhpOffice\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
+     * get small data (PPS's with data smaller than \Analize\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
      *
      * @param array $raList Reference to array of PPS's
      */

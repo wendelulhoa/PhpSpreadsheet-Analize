@@ -1,22 +1,22 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
+namespace Analize\PhpSpreadsheet\Calculation;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Engine\BranchPruner;
-use PhpOffice\PhpSpreadsheet\Calculation\Engine\CyclicReferenceStack;
-use PhpOffice\PhpSpreadsheet\Calculation\Engine\Logger;
-use PhpOffice\PhpSpreadsheet\Calculation\Engine\Operands;
-use PhpOffice\PhpSpreadsheet\Calculation\Token\Stack;
-use PhpOffice\PhpSpreadsheet\Cell\AddressRange;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\DefinedName;
-use PhpOffice\PhpSpreadsheet\NamedRange;
-use PhpOffice\PhpSpreadsheet\ReferenceHelper;
-use PhpOffice\PhpSpreadsheet\Shared;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Calculation\Engine\BranchPruner;
+use Analize\PhpSpreadsheet\Calculation\Engine\CyclicReferenceStack;
+use Analize\PhpSpreadsheet\Calculation\Engine\Logger;
+use Analize\PhpSpreadsheet\Calculation\Engine\Operands;
+use Analize\PhpSpreadsheet\Calculation\Token\Stack;
+use Analize\PhpSpreadsheet\Cell\AddressRange;
+use Analize\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\DefinedName;
+use Analize\PhpSpreadsheet\NamedRange;
+use Analize\PhpSpreadsheet\ReferenceHelper;
+use Analize\PhpSpreadsheet\Shared;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use ReflectionClassConstant;
 use ReflectionMethod;
 use ReflectionParameter;

@@ -1,23 +1,23 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+namespace Analize\PhpSpreadsheet\Reader\Xlsx;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
-use PhpOffice\PhpSpreadsheet\Chart\Axis;
-use PhpOffice\PhpSpreadsheet\Chart\AxisText;
-use PhpOffice\PhpSpreadsheet\Chart\ChartColor;
-use PhpOffice\PhpSpreadsheet\Chart\DataSeries;
-use PhpOffice\PhpSpreadsheet\Chart\DataSeriesValues;
-use PhpOffice\PhpSpreadsheet\Chart\GridLines;
-use PhpOffice\PhpSpreadsheet\Chart\Layout;
-use PhpOffice\PhpSpreadsheet\Chart\Legend;
-use PhpOffice\PhpSpreadsheet\Chart\PlotArea;
-use PhpOffice\PhpSpreadsheet\Chart\Properties as ChartProperties;
-use PhpOffice\PhpSpreadsheet\Chart\Title;
-use PhpOffice\PhpSpreadsheet\Chart\TrendLine;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Chart\Axis;
+use Analize\PhpSpreadsheet\Chart\AxisText;
+use Analize\PhpSpreadsheet\Chart\ChartColor;
+use Analize\PhpSpreadsheet\Chart\DataSeries;
+use Analize\PhpSpreadsheet\Chart\DataSeriesValues;
+use Analize\PhpSpreadsheet\Chart\GridLines;
+use Analize\PhpSpreadsheet\Chart\Layout;
+use Analize\PhpSpreadsheet\Chart\Legend;
+use Analize\PhpSpreadsheet\Chart\PlotArea;
+use Analize\PhpSpreadsheet\Chart\Properties as ChartProperties;
+use Analize\PhpSpreadsheet\Chart\Title;
+use Analize\PhpSpreadsheet\Chart\TrendLine;
+use Analize\PhpSpreadsheet\Reader\Xlsx;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Style\Font;
 use SimpleXMLElement;
 
 class Chart
@@ -77,7 +77,7 @@ class Chart
     /**
      * @param string $chartName
      */
-    public function readChart(SimpleXMLElement $chartElements, $chartName): \PhpOffice\PhpSpreadsheet\Chart\Chart
+    public function readChart(SimpleXMLElement $chartElements, $chartName): \Analize\PhpSpreadsheet\Chart\Chart
     {
         $chartElementsC = $chartElements->children($this->cNamespace);
 
@@ -462,7 +462,7 @@ class Chart
                     }
             }
         }
-        $chart = new \PhpOffice\PhpSpreadsheet\Chart\Chart($chartName, $title, $legend, $plotArea, $plotVisOnly, (string) $dispBlanksAs, $XaxisLabel, $YaxisLabel, $xAxis, $yAxis);
+        $chart = new \Analize\PhpSpreadsheet\Chart\Chart($chartName, $title, $legend, $plotArea, $plotVisOnly, (string) $dispBlanksAs, $XaxisLabel, $YaxisLabel, $xAxis, $yAxis);
         if ($chartNoFill) {
             $chart->setNoFill(true);
         }

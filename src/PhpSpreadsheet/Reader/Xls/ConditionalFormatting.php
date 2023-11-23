@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xls;
+namespace Analize\PhpSpreadsheet\Reader\Xls;
 
-use PhpOffice\PhpSpreadsheet\Style\Conditional;
+use Analize\PhpSpreadsheet\Style\Conditional;
 
 class ConditionalFormatting
 {

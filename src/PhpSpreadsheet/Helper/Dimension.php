@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Helper;
+namespace Analize\PhpSpreadsheet\Helper;
 
-use PhpOffice\PhpSpreadsheet\Exception;
-use PhpOffice\PhpSpreadsheet\Shared\Drawing;
-use PhpOffice\PhpSpreadsheet\Style\Font;
+use Analize\PhpSpreadsheet\Exception;
+use Analize\PhpSpreadsheet\Shared\Drawing;
+use Analize\PhpSpreadsheet\Style\Font;
 
 class Dimension
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
 class StringHelper
 {
@@ -549,7 +549,7 @@ class StringHelper
 
     /**
      * Set the decimal separator. Only used by NumberFormat::toFormattedString()
-     * to format output by \PhpOffice\PhpSpreadsheet\Writer\Html and \PhpOffice\PhpSpreadsheet\Writer\Pdf.
+     * to format output by \Analize\PhpSpreadsheet\Writer\Html and \Analize\PhpSpreadsheet\Writer\Pdf.
      *
      * @param string $separator Character for decimal separator
      */
@@ -580,7 +580,7 @@ class StringHelper
 
     /**
      * Set the thousands separator. Only used by NumberFormat::toFormattedString()
-     * to format output by \PhpOffice\PhpSpreadsheet\Writer\Html and \PhpOffice\PhpSpreadsheet\Writer\Pdf.
+     * to format output by \Analize\PhpSpreadsheet\Writer\Html and \Analize\PhpSpreadsheet\Writer\Pdf.
      *
      * @param string $separator Character for thousands separator
      */
@@ -616,7 +616,7 @@ class StringHelper
 
     /**
      * Set the currency code. Only used by NumberFormat::toFormattedString()
-     *        to format output by \PhpOffice\PhpSpreadsheet\Writer\Html and \PhpOffice\PhpSpreadsheet\Writer\Pdf.
+     *        to format output by \Analize\PhpSpreadsheet\Writer\Html and \Analize\PhpSpreadsheet\Writer\Pdf.
      *
      * @param string $currencyCode Character for currency code
      */

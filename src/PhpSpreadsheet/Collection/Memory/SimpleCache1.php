@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Collection\Memory;
+namespace Analize\PhpSpreadsheet\Collection\Memory;
 
 use DateInterval;
 use Psr\SimpleCache\CacheInterface;

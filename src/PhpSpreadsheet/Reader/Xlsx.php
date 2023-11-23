@@ -1,43 +1,43 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader;
+namespace Analize\PhpSpreadsheet\Reader;
 
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\Cell\Hyperlink;
-use PhpOffice\PhpSpreadsheet\DefinedName;
-use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\AutoFilter;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Chart;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\ColumnAndRowAttributes;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\ConditionalStyles;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\DataValidations;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Hyperlinks;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Namespaces;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\PageSetup;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Properties as PropertyReader;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\SharedFormula;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\SheetViewOptions;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\SheetViews;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Styles;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\TableReader;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\Theme;
-use PhpOffice\PhpSpreadsheet\Reader\Xlsx\WorkbookView;
-use PhpOffice\PhpSpreadsheet\ReferenceHelper;
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
-use PhpOffice\PhpSpreadsheet\Settings;
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Shared\Drawing;
-use PhpOffice\PhpSpreadsheet\Shared\File;
-use PhpOffice\PhpSpreadsheet\Shared\Font;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Style\Color;
-use PhpOffice\PhpSpreadsheet\Style\Font as StyleFont;
-use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
-use PhpOffice\PhpSpreadsheet\Style\Style;
-use PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooterDrawing;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\Cell\Hyperlink;
+use Analize\PhpSpreadsheet\DefinedName;
+use Analize\PhpSpreadsheet\Reader\Security\XmlScanner;
+use Analize\PhpSpreadsheet\Reader\Xlsx\AutoFilter;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Chart;
+use Analize\PhpSpreadsheet\Reader\Xlsx\ColumnAndRowAttributes;
+use Analize\PhpSpreadsheet\Reader\Xlsx\ConditionalStyles;
+use Analize\PhpSpreadsheet\Reader\Xlsx\DataValidations;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Hyperlinks;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Namespaces;
+use Analize\PhpSpreadsheet\Reader\Xlsx\PageSetup;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Properties as PropertyReader;
+use Analize\PhpSpreadsheet\Reader\Xlsx\SharedFormula;
+use Analize\PhpSpreadsheet\Reader\Xlsx\SheetViewOptions;
+use Analize\PhpSpreadsheet\Reader\Xlsx\SheetViews;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Styles;
+use Analize\PhpSpreadsheet\Reader\Xlsx\TableReader;
+use Analize\PhpSpreadsheet\Reader\Xlsx\Theme;
+use Analize\PhpSpreadsheet\Reader\Xlsx\WorkbookView;
+use Analize\PhpSpreadsheet\ReferenceHelper;
+use Analize\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\Settings;
+use Analize\PhpSpreadsheet\Shared\Date;
+use Analize\PhpSpreadsheet\Shared\Drawing;
+use Analize\PhpSpreadsheet\Shared\File;
+use Analize\PhpSpreadsheet\Shared\Font;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Style\Color;
+use Analize\PhpSpreadsheet\Style\Font as StyleFont;
+use Analize\PhpSpreadsheet\Style\NumberFormat;
+use Analize\PhpSpreadsheet\Style\Style;
+use Analize\PhpSpreadsheet\Worksheet\HeaderFooterDrawing;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
 use SimpleXMLElement;
 use Throwable;
 use XMLReader;
@@ -1182,7 +1182,7 @@ class Xlsx extends BaseReader
                                                 $comment = $docSheet->getComment([$column + 1, $row + 1]);
                                                 $comment->getFillColor()->setRGB($fillColor);
                                                 if (isset($drowingImages[$fillImageRelId])) {
-                                                    $objDrawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+                                                    $objDrawing = new \Analize\PhpSpreadsheet\Worksheet\Drawing();
                                                     $objDrawing->setName($fillImageTitle);
                                                     $imagePath = str_replace(['../', '/xl/'], 'xl/', $drowingImages[$fillImageRelId]);
                                                     $objDrawing->setPath(
@@ -1392,7 +1392,7 @@ class Xlsx extends BaseReader
                                                     /** @var SimpleXMLElement $outerShdw */
                                                     $outerShdw = $oneCellAnchor->pic->spPr->children(Namespaces::DRAWINGML)->effectLst->outerShdw;
 
-                                                    $objDrawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+                                                    $objDrawing = new \Analize\PhpSpreadsheet\Worksheet\Drawing();
                                                     $objDrawing->setName((string) self::getArrayItem(self::getAttributes($oneCellAnchor->pic->nvPicPr->cNvPr), 'name'));
                                                     $objDrawing->setDescription((string) self::getArrayItem(self::getAttributes($oneCellAnchor->pic->nvPicPr->cNvPr), 'descr'));
                                                     $embedImageKey = (string) self::getArrayItem(
@@ -1469,7 +1469,7 @@ class Xlsx extends BaseReader
                                             foreach ($xmlDrawingChildren->twoCellAnchor as $twoCellAnchor) {
                                                 $twoCellAnchor = self::testSimpleXml($twoCellAnchor);
                                                 if ($twoCellAnchor->pic->blipFill) {
-                                                    $objDrawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+                                                    $objDrawing = new \Analize\PhpSpreadsheet\Worksheet\Drawing();
                                                     $blip = $twoCellAnchor->pic->blipFill->children(Namespaces::DRAWINGML)->blip;
                                                     if (isset($twoCellAnchor->pic->blipFill->children(Namespaces::DRAWINGML)->srcRect)) {
                                                         $objDrawing->setSrcRect($twoCellAnchor->pic->blipFill->children(Namespaces::DRAWINGML)->srcRect->attributes());
@@ -2031,7 +2031,7 @@ class Xlsx extends BaseReader
         return $value === 'true' || $value === 'TRUE';
     }
 
-    private function readHyperLinkDrawing(\PhpOffice\PhpSpreadsheet\Worksheet\Drawing $objDrawing, SimpleXMLElement $cellAnchor, array $hyperlinks): void
+    private function readHyperLinkDrawing(\Analize\PhpSpreadsheet\Worksheet\Drawing $objDrawing, SimpleXMLElement $cellAnchor, array $hyperlinks): void
     {
         $hlinkClick = $cellAnchor->pic->nvPicPr->cNvPr->children(Namespaces::DRAWINGML)->hlinkClick;
 

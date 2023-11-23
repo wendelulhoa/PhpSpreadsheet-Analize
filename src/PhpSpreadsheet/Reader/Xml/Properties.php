@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Xml;
+namespace Analize\PhpSpreadsheet\Reader\Xml;
 
-use PhpOffice\PhpSpreadsheet\Document\Properties as DocumentProperties;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Document\Properties as DocumentProperties;
+use Analize\PhpSpreadsheet\Spreadsheet;
 use SimpleXMLElement;
 
 class Properties

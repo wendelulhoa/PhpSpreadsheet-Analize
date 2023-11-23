@@ -1,18 +1,18 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Ods;
+namespace Analize\PhpSpreadsheet\Writer\Ods;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Exception as CalculationException;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Cell\DataType;
-use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\RowCellIterator;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use PhpOffice\PhpSpreadsheet\Writer\Ods;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Cell\Comment;
-use PhpOffice\PhpSpreadsheet\Writer\Ods\Cell\Style;
+use Analize\PhpSpreadsheet\Calculation\Exception as CalculationException;
+use Analize\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Cell\Coordinate;
+use Analize\PhpSpreadsheet\Cell\DataType;
+use Analize\PhpSpreadsheet\Shared\XMLWriter;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\RowCellIterator;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Writer\Ods;
+use Analize\PhpSpreadsheet\Writer\Ods\Cell\Comment;
+use Analize\PhpSpreadsheet\Writer\Ods\Cell\Style;
 
 /**
  * @author     Alexander Pervakov <frost-nzcr4@jagmort.com>

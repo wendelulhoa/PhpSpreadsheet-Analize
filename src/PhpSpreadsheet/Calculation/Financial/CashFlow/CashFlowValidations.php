@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation\Financial\CashFlow;
+namespace Analize\PhpSpreadsheet\Calculation\Financial\CashFlow;
 
-use PhpOffice\PhpSpreadsheet\Calculation\Exception;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\Constants as FinancialConstants;
-use PhpOffice\PhpSpreadsheet\Calculation\Financial\FinancialValidations;
-use PhpOffice\PhpSpreadsheet\Calculation\Information\ExcelError;
+use Analize\PhpSpreadsheet\Calculation\Exception;
+use Analize\PhpSpreadsheet\Calculation\Financial\Constants as FinancialConstants;
+use Analize\PhpSpreadsheet\Calculation\Financial\FinancialValidations;
+use Analize\PhpSpreadsheet\Calculation\Information\ExcelError;
 
 class CashFlowValidations extends FinancialValidations
 {

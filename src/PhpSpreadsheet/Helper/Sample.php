@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Helper;
+namespace Analize\PhpSpreadsheet\Helper;
 
-use PhpOffice\PhpSpreadsheet\Chart\Chart;
-use PhpOffice\PhpSpreadsheet\Chart\Renderer\MtJpGraphRenderer;
-use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Settings;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use PhpOffice\PhpSpreadsheet\Writer\IWriter;
+use Analize\PhpSpreadsheet\Chart\Chart;
+use Analize\PhpSpreadsheet\Chart\Renderer\MtJpGraphRenderer;
+use Analize\PhpSpreadsheet\IOFactory;
+use Analize\PhpSpreadsheet\Settings;
+use Analize\PhpSpreadsheet\Spreadsheet;
+use Analize\PhpSpreadsheet\Worksheet\Worksheet;
+use Analize\PhpSpreadsheet\Writer\IWriter;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use RecursiveRegexIterator;

@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Ods;
+namespace Analize\PhpSpreadsheet\Writer\Ods;
 
-use PhpOffice\PhpSpreadsheet\Writer\Ods;
+use Analize\PhpSpreadsheet\Writer\Ods;
 
 abstract class WriterPart
 {

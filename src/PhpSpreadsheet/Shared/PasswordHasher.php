@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared;
+namespace Analize\PhpSpreadsheet\Shared;
 
-use PhpOffice\PhpSpreadsheet\Exception as SpException;
-use PhpOffice\PhpSpreadsheet\Worksheet\Protection;
+use Analize\PhpSpreadsheet\Exception as SpException;
+use Analize\PhpSpreadsheet\Worksheet\Protection;
 
 class PasswordHasher
 {

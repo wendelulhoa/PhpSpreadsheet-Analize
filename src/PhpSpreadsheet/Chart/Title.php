@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Chart;
+namespace Analize\PhpSpreadsheet\Chart;
 
-use PhpOffice\PhpSpreadsheet\RichText\RichText;
+use Analize\PhpSpreadsheet\RichText\RichText;
 
 class Title
 {

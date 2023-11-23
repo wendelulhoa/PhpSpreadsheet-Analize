@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
+namespace Analize\PhpSpreadsheet\Shared\Trend;
 
 abstract class BestFit
 {

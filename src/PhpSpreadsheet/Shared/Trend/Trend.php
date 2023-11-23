@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
+namespace Analize\PhpSpreadsheet\Shared\Trend;
 
 class Trend
 {
@@ -78,7 +78,7 @@ class Trend
             case self::TREND_EXPONENTIAL:
             case self::TREND_POWER:
                 if (!isset(self::$trendCache[$key])) {
-                    $className = '\PhpOffice\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
+                    $className = '\Analize\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
                     self::$trendCache[$key] = new $className($yValues, $xValues, $const);
                 }
 
@@ -101,7 +101,7 @@ class Trend
                 $bestFit = [];
                 $bestFitValue = [];
                 foreach (self::$trendTypes as $trendMethod) {
-                    $className = '\PhpOffice\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
+                    $className = '\Analize\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
                     //* @phpstan-ignore-next-line
                     $bestFit[$trendMethod] = new $className($yValues, $xValues, $const);
                     $bestFitValue[$trendMethod] = $bestFit[$trendMethod]->getGoodnessOfFit();

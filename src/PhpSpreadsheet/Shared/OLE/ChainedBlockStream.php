@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Shared\OLE;
+namespace Analize\PhpSpreadsheet\Shared\OLE;
 
-use PhpOffice\PhpSpreadsheet\Shared\OLE;
+use Analize\PhpSpreadsheet\Shared\OLE;
 
 class ChainedBlockStream
 {

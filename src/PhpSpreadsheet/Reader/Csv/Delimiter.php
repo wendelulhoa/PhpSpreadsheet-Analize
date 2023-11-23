@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Reader\Csv;
+namespace Analize\PhpSpreadsheet\Reader\Csv;
 
 class Delimiter
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xls\Style;
+namespace Analize\PhpSpreadsheet\Writer\Xls\Style;
 
-use PhpOffice\PhpSpreadsheet\Style\Alignment;
+use Analize\PhpSpreadsheet\Style\Alignment;
 
 class CellAlignment
 {

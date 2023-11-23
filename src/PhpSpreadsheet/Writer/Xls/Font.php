@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Writer\Xls;
+namespace Analize\PhpSpreadsheet\Writer\Xls;
 
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
+use Analize\PhpSpreadsheet\Shared\StringHelper;
 
 class Font
 {
@@ -14,12 +14,12 @@ class Font
     /**
      * Font.
      */
-    private \PhpOffice\PhpSpreadsheet\Style\Font $font;
+    private \Analize\PhpSpreadsheet\Style\Font $font;
 
     /**
      * Constructor.
      */
-    public function __construct(\PhpOffice\PhpSpreadsheet\Style\Font $font)
+    public function __construct(\Analize\PhpSpreadsheet\Style\Font $font)
     {
         $this->colorIndex = 0x7FFF;
         $this->font = $font;
@@ -55,7 +55,7 @@ class Font
             $sss = 0;
         }
         $bFamily = 0; // Font family
-        $bCharSet = \PhpOffice\PhpSpreadsheet\Shared\Font::getCharsetFromFontName((string) $this->font->getName()); // Character set
+        $bCharSet = \Analize\PhpSpreadsheet\Shared\Font::getCharsetFromFontName((string) $this->font->getName()); // Character set
 
         $record = 0x31; // Record identifier
         $reserved = 0x00; // Reserved
@@ -115,11 +115,11 @@ class Font
      * @var int[]
      */
     private static $mapUnderline = [
-        \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_NONE => 0x00,
-        \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_SINGLE => 0x01,
-        \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLE => 0x02,
-        \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_SINGLEACCOUNTING => 0x21,
-        \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLEACCOUNTING => 0x22,
+        \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_NONE => 0x00,
+        \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_SINGLE => 0x01,
+        \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLE => 0x02,
+        \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_SINGLEACCOUNTING => 0x21,
+        \Analize\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLEACCOUNTING => 0x22,
     ];
 
     /**

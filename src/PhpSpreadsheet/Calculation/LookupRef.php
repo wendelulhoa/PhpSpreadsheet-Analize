@@ -1,16 +1,16 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
+namespace Analize\PhpSpreadsheet\Calculation;
 
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\Address;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\HLookup;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\Indirect;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\Lookup;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\Matrix;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\Offset;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\RowColumnInformation;
-use PhpOffice\PhpSpreadsheet\Calculation\LookupRef\VLookup;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\Address;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\HLookup;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\Indirect;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\Lookup;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\Matrix;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\Offset;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\RowColumnInformation;
+use Analize\PhpSpreadsheet\Calculation\LookupRef\VLookup;
+use Analize\PhpSpreadsheet\Cell\Cell;
 
 /**
  * @deprecated 1.18.0
