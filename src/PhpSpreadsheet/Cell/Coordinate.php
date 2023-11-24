@@ -677,7 +677,7 @@ abstract class Coordinate
     private static function validateRange(string $cellBlock, $startColumnIndex, $endColumnIndex, $currentRow, $endRow): void
     {
         if ($startColumnIndex >= $endColumnIndex || $currentRow > $endRow) {
-            throw new Exception('Invalid range: "' . $cellBlock . '"');
+            // throw new Exception('Invalid range: "' . $cellBlock . '"');
         }
     }
 }
